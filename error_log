@@ -1,0 +1,1036 @@
+[09-Mar-2021 13:15:32 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:15:32 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:15:32 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:15:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:15:37 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:15:37 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:15:37 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:15:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:15:48 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:15:48 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:15:48 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:15:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:17:22 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:17:22 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:17:22 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:17:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:17:35 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:17:35 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:17:35 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:17:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:17:41 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:17:41 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:17:41 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:17:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:17:46 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:17:46 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:17:46 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:17:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:17:58 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:17:58 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:17:58 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:17:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/reports.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Reports->__construct()
+#8 /home4/runners/public_html/inven in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:18:55 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:18:55 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:18:55 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:18:55 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:18:55 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:18:55 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:18:55 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:18:55 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:19:19 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:19:19 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:19:19 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:19:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:20:22 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:20:22 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:20:22 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:20:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:20:58 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:20:58 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:20:58 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:20:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:21:05 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:21:05 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:21:05 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:21:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:27:35 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:27:35 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:27:35 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:27:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 13:29:56 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 13:29:56 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 13:29:56 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 13:29:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 14:01:30 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 14:01:30 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 14:01:30 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 14:01:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 15:33:21 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 15:33:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 15:33:21 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 15:33:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 15:36:36 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 15:36:36 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 15:36:36 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 15:36:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 16:19:31 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 16:19:31 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 16:19:31 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 16:19:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 16:20:03 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 16:20:03 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 16:20:03 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 16:20:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 16:20:08 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 16:20:08 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 16:20:08 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 16:20:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 16:20:36 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 16:20:36 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 16:20:36 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 16:20:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 16:20:59 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 16:20:59 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 16:20:59 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 16:20:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 16:21:17 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 16:21:17 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 16:21:17 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 16:21:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[09-Mar-2021 17:58:26 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[09-Mar-2021 17:58:26 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[09-Mar-2021 17:58:26 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[09-Mar-2021 17:58:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 08:53:34 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 08:53:34 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 08:53:34 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 08:53:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 11:18:17 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 11:18:17 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 11:18:17 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 11:18:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 11:48:56 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 11:48:56 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 11:48:56 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 11:48:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 11:49:02 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 11:49:02 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 11:49:02 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 11:49:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 11:49:03 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 11:49:03 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 11:49:03 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 11:49:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 12:32:12 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 12:32:12 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 12:32:12 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 12:32:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 12:32:13 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 12:32:13 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 12:32:13 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 12:32:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:05:44 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:05:44 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:05:44 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:05:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:44:45 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:44:45 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:44:45 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:44:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:45:28 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:45:28 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:45:28 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:45:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:45:31 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:45:31 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:45:31 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:45:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:46:14 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:46:14 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:46:14 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:46:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:46:39 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:46:39 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:46:39 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:46:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:46:52 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:46:53 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:46:53 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:46:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:48:11 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:48:11 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:48:11 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:48:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:50:04 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:50:04 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:50:04 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:50:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 13:57:57 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 13:57:57 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 13:57:57 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 13:57:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:05:22 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:05:22 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:05:22 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:05:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:05:27 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:05:27 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:05:27 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:05:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:06:54 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:06:54 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:06:54 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:06:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:07:14 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:07:14 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:07:14 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:07:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:07:24 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:07:24 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:07:24 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:07:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:08:20 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:08:20 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:08:20 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:08:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:08:33 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:08:33 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:08:33 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:08:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:08:38 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:08:38 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:08:38 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:08:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:10:37 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:10:37 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:10:37 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:10:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:10:39 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:10:39 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:10:39 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:10:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:10:41 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:10:41 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:10:41 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:10:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:12:40 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:12:40 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:12:40 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:12:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:14:50 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:14:50 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:14:50 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:14:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:15:56 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:15:56 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:15:56 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:15:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:17:41 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:17:41 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:17:41 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:17:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:18:40 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:18:40 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:18:40 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:18:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:18:51 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:18:51 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:18:51 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:18:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:29:01 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:29:01 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:29:01 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:29:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:49:07 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:49:07 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:49:07 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:49:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 14:57:35 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 14:57:35 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 14:57:35 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 14:57:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 15:07:05 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 15:07:05 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 15:07:05 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 15:07:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 15:22:06 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 15:22:06 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 15:22:06 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 15:22:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 16:25:30 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 16:25:30 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 16:25:30 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 16:25:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 17:31:28 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 17:31:28 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 17:31:28 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 17:31:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 20:14:07 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 20:14:07 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 20:14:07 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 20:14:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 23:21:05 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 23:21:05 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 23:21:05 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 23:21:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/admin/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 23:27:50 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 23:27:50 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 23:27:50 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 23:27:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 23:28:30 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 23:28:30 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 23:28:30 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 23:28:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 23:32:29 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 23:32:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 23:32:29 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 23:32:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[10-Mar-2021 23:34:54 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[10-Mar-2021 23:34:54 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[10-Mar-2021 23:34:54 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[10-Mar-2021 23:34:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88
+[11-Mar-2021 00:03:48 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[11-Mar-2021 00:03:48 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CI_Exceptions has a deprecated constructor in /home4/runners/public_html/inventory/system/libraries/Exceptions.php on line 27
+[11-Mar-2021 00:03:48 America/Chicago] PHP Notice:  Only variables should be passed by reference in /home4/runners/public_html/inventory/system/codeigniter/Common.php on line 148
+[11-Mar-2021 00:03:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home4/runners/public_html/inventory/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home4/runners/public_html/inventory/system/database/DB.php(137): CI_DB_driver->initialize()
+#2 /home4/runners/public_html/inventory/system/libraries/Loader.php(224): DB(Array, false)
+#3 /home4/runners/public_html/inventory/system/libraries/Loader.php(985): CI_Loader->database()
+#4 /home4/runners/public_html/inventory/system/libraries/Controller.php(83): CI_Loader->_ci_autoloader()
+#5 /home4/runners/public_html/inventory/system/libraries/Controller.php(43): Controller->_ci_initialize()
+#6 /home4/runners/public_html/inventory/system/application/controllers/users/login.php(9): Controller->Controller()
+#7 /home4/runners/public_html/inventory/system/codeigniter/CodeIgniter.php(201): Login->__construct()
+#8 /home4/runners/public_html/inventory in /home4/runners/public_html/inventory/system/database/drivers/mysql/mysql_driver.php on line 88

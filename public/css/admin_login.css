@@ -1,0 +1,42 @@
+/**
+  * Admin Login CSS 
+  *
+  * Custom hand made CSS to facilitate us with all the 
+  * necessary classes for all the admin Login.
+  * YunusCSE[yunus.alikhan@gmail.com]
+  */
+fieldset {
+	-moz-border-radius-bottomleft:4px;
+	-moz-border-radius-bottomright:4px;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-topright:4px;
+	border:1px solid #BFB8BF;
+	padding:5px;
+}
+
+legend {
+	color:#0046D5;
+	font-family:Tahoma,system,sans-serif;
+	font-size:11px;
+}
+
+body, tr, td, button {
+	color:black;
+	font-family:Tahoma,system,sans-serif;
+	font-size:11px;
+}
+
+input, select, textarea {
+	border:1px solid #A5ACB2;
+	color:black;
+	font-family:Tahoma,system,sans-serif;
+	font-size:11px;
+	height:19px;
+	margin:0px;
+	padding:2px;
+}
+
+.error{
+	color:red;
+	font-weight:bold;
+}
