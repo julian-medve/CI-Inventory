@@ -5,7 +5,7 @@ class EmailTemplate extends Model
 
 	   function __construct()
 	   {
-	   	  parent::Model();
+	   	  parent::__construct();
 	   }
 	   
 	   function sendEmail($emailTo, $template, $data)

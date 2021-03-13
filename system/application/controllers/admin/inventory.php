@@ -6,7 +6,7 @@ class Inventory extends Controller {
 
 	function __construct()
 	{
-		parent::Controller();	
+		parent::__construct();	
 		
 		$this->load->library('Validation');
 		$this->load->library('pagination');
@@ -104,7 +104,7 @@ class Inventory extends Controller {
 		$fields['product_id']      = 'product' ;
 		$this->validation->set_fields($fields);
 		
-        $this->validation->set_error_delimiters('<p class="error">', '</p>');
+		$this->validation->set_error_delimiters('<p class="error">', '</p>');
 		
 		if (count($_POST) > 0)
 		{

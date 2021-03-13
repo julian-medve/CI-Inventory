@@ -4,7 +4,7 @@ class UsersModel extends Model
 {
 	function __construct()
 	{
-		parent::Model();
+		parent::__construct();
 	}
 	
 	/**

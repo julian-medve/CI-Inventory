@@ -11,7 +11,9 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://www.runnersutah.com/inventory/";
+
+// $config['base_url']	= "http://www.runnersutah.com/inventory/";
+$config['base_url']	= "http://localhost/";
 
 /*
 |--------------------------------------------------------------------------

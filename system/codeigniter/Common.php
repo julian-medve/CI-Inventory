@@ -161,7 +161,8 @@ function &load_class($class, $instantiate = TRUE)
  * @param	object
  * @return	object
  */
-function &instantiate_class(&$class_object)
+// function &instantiate_class(&$class_object)
+function &instantiate_class($class_object)
 {
 	return $class_object;
 }

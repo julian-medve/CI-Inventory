@@ -4,7 +4,7 @@ class ProductModel extends Model
 {
 	function __construct()
 	{
-		parent::Model();
+		parent::__construct();
 	}
 	
 	function getList($start = 0,$limit = 3,$order_by = 'product_id')

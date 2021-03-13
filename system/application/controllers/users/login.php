@@ -6,7 +6,7 @@ class Login extends Controller {
 
 	function __construct()
 	{
-		parent::Controller();	
+		parent::__construct();	
 		
 		$this->load->library('Validation');
 		$this->load->model('EmailTemplate');

@@ -6,7 +6,7 @@ class Login extends Controller {
 
 	function __construct()
 	{
-		parent::Controller();	
+		parent::__construct();	
 		
 		$this->load->library('Validation');
 		
@@ -37,11 +37,11 @@ class Login extends Controller {
 		if( count($_POST) )
 		{
 			if( $this->validation->run() == FALSE )
-	        {
-				$this->load->view('admin/adminlogin',$this->data);
-	        }
-			else
 			{
+				$this->load->view('admin/login',$this->data);
+			}
+			else
+			{				
 				if($validate = $this->UsersModel->validateUser($_POST))
 				{
 					if($validate[0]['user_role_id'] == '1')
@@ -57,8 +57,7 @@ class Login extends Controller {
 				}
 				else
 				{
-					$this->data['loginerror'] = "<span class='error'><br>Invalid username or password.Please try again.</span>";
-					
+					$this->data['loginerror'] = "<span class='error'><br>Invalid username or password.Please try again.</span>";			
 					redirect('admin/login');
 				}
 			}

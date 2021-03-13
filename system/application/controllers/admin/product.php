@@ -6,7 +6,7 @@ class Product extends Controller {
 
 	function __construct()
 	{
-		parent::Controller();	
+		parent::__construct();	
 		
 		$this->load->library('Validation');
 		$this->load->library('pagination');
@@ -97,7 +97,7 @@ class Product extends Controller {
 		$fields['customer_id']      = 'customer' ;
 		$this->validation->set_fields($fields);
 		
-        $this->validation->set_error_delimiters('<p class="error">', '</p>');
+    $this->validation->set_error_delimiters('<p class="error">', '</p>');
 		
 		if (count($_POST) > 0)
 		{
@@ -114,13 +114,13 @@ class Product extends Controller {
 			{
 				$categoryData = array(
 				                  'outside_diameter'    => $_POST['outside_diameter'],
-								  'wall_thickness'      => $_POST['wall_thickness'],
-								  'ibs_per_foot'        => $_POST['ibs_per_foot'],
-								  'end_type'            => $_POST['end_type'],
-								  'grade'               => $_POST['grade'],
-								  'coating'             => $_POST['coating'],
-								  'foreman'             => $_POST['foreman'],
-								  'customer_id'         => $_POST['customer_id']
+													'wall_thickness'      => $_POST['wall_thickness'],
+													'ibs_per_foot'        => $_POST['ibs_per_foot'],
+													'end_type'            => $_POST['end_type'],
+													'grade'               => $_POST['grade'],
+													'coating'             => $_POST['coating'],
+													'foreman'             => $_POST['foreman'],
+													'customer_id'         => $_POST['customer_id']
 				                 );
 				if($this->ProductModel->add($categoryData))
 				{
@@ -131,7 +131,7 @@ class Product extends Controller {
 		else
 		{
 			$data['form_validation_code'] = $_SESSION['form_validation_code'] = time();
-			$this->layout->view('product/add',$data);
+			$this->layout->view('product/add', $data);
 		}
 	}	
 	

@@ -4,7 +4,7 @@ class CustomerModel extends Model
 {
 	function __construct()
 	{
-		parent::Model();
+		parent::__construct();
 	}
 	
 	function addAdmin($data)

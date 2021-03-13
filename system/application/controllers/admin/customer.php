@@ -6,7 +6,7 @@ class Customer extends Controller {
 
 	function __construct()
 	{
-		parent::Controller();	
+		parent::__construct();	
 		
 		$this->load->library('Validation');
 		$this->load->library('pagination');
@@ -40,7 +40,7 @@ class Customer extends Controller {
 		$data = array(
 				"adminList"           => $result_array,
 				"links"               => $links,
-				"per_msg"			  => $per_msg1,
+				"per_msg"			  			=> $per_msg1,
 				"title"	              => 'Customer List'  
 			  );
 		
@@ -67,7 +67,7 @@ class Customer extends Controller {
 		$this->validation->set_fields($fields);
 		
 		$this->validation->set_fields($fields);
-        $this->validation->set_error_delimiters('<p class="error">', '</p>');
+		$this->validation->set_error_delimiters('<p class="error">', '</p>');
 		
 		if (count($_POST) > 0)
 		{
