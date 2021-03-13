@@ -33,16 +33,16 @@ class Reports extends Controller {
 		}
 		else
 		{
-			if(isset($_SESSION['order']))
-			{
-				$order    = $_SESSION['order'];
-				$by       = $_SESSION['by'];
-				$order_by = "ORDER BY $order $by";
-			}
-			else
-			{
+			// if(isset($_SESSION['order']))
+			// {
+			// 	$order    = $_SESSION['order'];
+			// 	$by       = $_SESSION['by'];
+			// 	$order_by = "ORDER BY $order $by";
+			// }
+			// else
+			// {
 				$order_by = "ORDER BY product_id DESC";
-			}
+			// }
 		}
 		
 		if($_POST)

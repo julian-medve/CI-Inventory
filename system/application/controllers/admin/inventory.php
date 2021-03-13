@@ -33,20 +33,20 @@ class Inventory extends Controller {
 		}
 		else
 		{
-			if(isset($_SESSION['order']))
-			{
-				$order    = $_SESSION['order'];
-				$by       = $_SESSION['by'];
-				$order_by = "$order $by";
-			}
-			else
-			{
+			// if(isset($_SESSION['order']))
+			// {
+			// 	$order    = $_SESSION['order'];
+			// 	$by       = $_SESSION['by'];
+			// 	$order_by = "$order $by";
+			// }
+			// else
+			// {
 				$order_by = "store_id DESC";
-			}
+			// }
 		}
 
 
-		$this->setPaginationParams();
+		$this->setPaginationParams($order_by);
 		
 		$start = $this->uri->segment(7);
 		if (empty($start)) 
@@ -79,7 +79,7 @@ class Inventory extends Controller {
 		$this->layout->view('store/list', $data);
 	}
 	
-	function setPaginationParams()
+	function setPaginationParams($order_by)
 	{
 		global $per_page;
 		
@@ -93,7 +93,7 @@ class Inventory extends Controller {
 		                	);
 		}
 		
-	  $result = $this->db->query( "SELECT * FROM store ORDER BY " . $_SESSION['order'] . " " . $_SESSION['by'])->result_array();
+	  $result = $this->db->query( "SELECT * FROM store ORDER BY " . $order_by)->result_array();
 		$per_page = 20;
 		if(empty($params['per_page']))
 		{
@@ -107,7 +107,11 @@ class Inventory extends Controller {
 		{	
 			$per_page = count($result);
 		}
-		$config['base_url']   = site_url().'/admin/inventory/lists/' . $_SESSION['order'] . '/' . $_SESSION['by']. '/per_page/';
+
+		$order = explode(" ", $order_by)[0];
+		$by = explode(" ", $order_by)[1];
+
+		$config['base_url']   = site_url().'/admin/inventory/lists/' . $order . '/' . $by. '/per_page/';
 	  $config['total_rows'] = count($result);
 		$config['per_page']   = $per_page;
 		$config['uri_segment']   = 7;
