@@ -1,6 +1,6 @@
 <form id="form1" class="form" name="form1" method="post" onsubmit="" action="" enctype="multipart/form-data" >
 	<div id="writemain">
-		<p class="page-desc"><a href="<?php echo site_url('admin/inventory/lists'); ?>" class="back">Go Back</a></p>
+		<p class="page-desc"><a href="<?php echo site_url('admin/inventory/lists/per_page/0'); ?>" class="back">Go Back</a></p>
 	    <h2>Inventory Details Information</h2>
 		<p class="desc"></p>
 		<div>

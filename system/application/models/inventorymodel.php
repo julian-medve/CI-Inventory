@@ -7,9 +7,12 @@ class InventoryModel extends Model
 		parent::__construct();
 	}
 	
-	function getList($start = 0,$limit = 3,$order_by = 'store_id')
+	function getList($start = 0,$limit = 3,$order_by = '')
 	{
-		return  $this->db->query("SELECT * FROM store ORDER BY  {$order_by} DESC LIMIT $start , $limit ")->result_array();		
+		if($order_by == '')
+			return  $this->db->query("SELECT * FROM store ORDER BY  store_id DESC LIMIT $start , $limit ")->result_array();		
+		else
+			return  $this->db->query("SELECT * FROM store ORDER BY  {$order_by} LIMIT $start , $limit ")->result_array();		
 	}
 
 	function getList2($order_by = 'store_id')

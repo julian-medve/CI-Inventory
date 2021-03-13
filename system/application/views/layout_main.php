@@ -94,7 +94,7 @@
                     <h2 class="widgettitle"><span class="system">Line Pipe Description</span></h2>
 					<div class="widgetdata">
                         <ul class="leftmenu">
-							<li><a href="<?php echo site_url('admin/inventory/lists'); ?>">Inventory List</a></li>
+							<li><a href="<?php echo site_url('admin/inventory/lists/per_page/0'); ?>">Inventory List</a></li>
 							<li><a href="<?php echo site_url('admin/inventory/add'); ?>">Add Inventory</a></li>
 						</ul>
                         <div class="bottom">&nbsp;</div>

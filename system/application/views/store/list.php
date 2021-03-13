@@ -10,12 +10,12 @@ $(document).ready(function(){
 	<thead>                            
 		<tr>
 			<th scope="col">No.</th>
-			<th scope="col">Date</th>
-			<th scope="col">R.R# OR REL.#</th>
-			<th scope="col">P.O# OR B/L#</th>
-			<th scope="col">Carrier</th>
-			<th scope="col">Joints In</th>
-			<th scope="col">Joints Out</th>
+			<th scope="col"><a href="<?php echo site_url("admin/inventory/lists"); ?>/c_date/<?php echo ($_SESSION['order'] == 'c_date')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">Date<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'c_date')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
+			<th scope="col"><a href="<?php echo site_url("admin/inventory/lists"); ?>/rr/<?php echo ($_SESSION['order'] == 'rr')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">R.R# OR REL.#<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'rr')? $_SESSION['by'] : 'asc'; ?>.png"></a></th></th>
+			<th scope="col"><a href="<?php echo site_url("admin/inventory/lists"); ?>/po/<?php echo ($_SESSION['order'] == 'po')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">P.O# OR B/L#<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'po')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
+			<th scope="col"><a href="<?php echo site_url("admin/inventory/lists"); ?>/carrier/<?php echo ($_SESSION['order'] == 'carrier')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">Carrier<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'carrier')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
+			<th scope="col"><a href="<?php echo site_url("admin/inventory/lists"); ?>/joints_in/<?php echo ($_SESSION['order'] == 'joints_in')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">Joints In<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'joints_in')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
+			<th scope="col"><a href="<?php echo site_url("admin/inventory/lists"); ?>/joints_out/<?php echo ($_SESSION['order'] == 'joints_out')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">Joints Out<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'joints_out')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
 			<th scope="col"></th>		
 			<th scope="col"></th>		
 			<th scope="col"></th>

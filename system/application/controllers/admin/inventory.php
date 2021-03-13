@@ -22,27 +22,60 @@ class Inventory extends Controller {
 	function lists()
 	{	
 		global $per_page,$start,$limit;
-		
+
+		if($this->uri->segment(5) == 'asc' || $this->uri->segment(5) == 'desc')
+		{
+			$order             = $this->uri->segment(4);
+			$by                = $this->uri->segment(5);
+			$_SESSION['order'] = $order;
+			$_SESSION['by']    = ($this->uri->segment(5) == 'asc')? 'asc' : 'desc';
+			$order_by          = "$order $by";
+		}
+		else
+		{
+			if(isset($_SESSION['order']))
+			{
+				$order    = $_SESSION['order'];
+				$by       = $_SESSION['by'];
+				$order_by = "$order $by";
+			}
+			else
+			{
+				$order_by = "store_id DESC";
+			}
+		}
+
+
 		$this->setPaginationParams();
 		
-		$start = $this->uri->segment(5);
+		$start = $this->uri->segment(7);
 		if (empty($start)) 
 		{
 		   	$start = 0;
 		}
+
+		$_SESSION['start'] = $start;
+
 		$limit=$per_page;
 		$links = $this->pagination->create_links();
 		
-		$result_array	= $this->InventoryModel->getList($start,$limit);
+		$result_array	= $this->InventoryModel->getList($start,$limit, $order_by);
 		
 		$links = $this->pagination->create_links();
 		$data = array(
 				"categoryList"        => $result_array,
 				"links"               => $links,
-				"per_msg"			  => $per_msg1,
+				"per_msg"			  			=> $per_msg1,
 				"title"	              => 'Inventory List'  
 			  );
 		
+		
+		// For Menu Order
+		if($this->uri->segment(5) == 'asc' || $this->uri->segment(5) == 'desc')
+		{
+			$_SESSION['by']    = ($this->uri->segment(5) == 'asc')? 'desc' : 'asc';
+		}
+
 		$this->layout->view('store/list', $data);
 	}
 	
@@ -60,7 +93,7 @@ class Inventory extends Controller {
 		                	);
 		}
 		
-	  	$result = $this->db->query( "SELECT * FROM store" )->result_array();
+	  $result = $this->db->query( "SELECT * FROM store ORDER BY " . $_SESSION['order'] . " " . $_SESSION['by'])->result_array();
 		$per_page = 20;
 		if(empty($params['per_page']))
 		{
@@ -74,10 +107,10 @@ class Inventory extends Controller {
 		{	
 			$per_page = count($result);
 		}
-		$config['base_url']   = site_url().'/admin/inventory/lists/'		                      
-	                        			. "/per_page/";
-	    $config['total_rows'] = count($result);
+		$config['base_url']   = site_url().'/admin/inventory/lists/' . $_SESSION['order'] . '/' . $_SESSION['by']. '/per_page/';
+	  $config['total_rows'] = count($result);
 		$config['per_page']   = $per_page;
+		$config['uri_segment']   = 7;
 		
 		$this->pagination->initialize($config);
 	}	
@@ -169,7 +202,7 @@ class Inventory extends Controller {
 					}
 					else
 					{
-						redirect('admin/inventory/lists');
+						redirect('admin/inventory/lists/per_page/0');
 					}
 				}
 			}
@@ -236,7 +269,7 @@ class Inventory extends Controller {
 				
 				
 				$this->InventoryModel->edit($_POST,$image_data);
-				redirect('admin/inventory/lists');
+				redirect('admin/inventory/lists/per_page/0');
 			}
 		}
 		else
@@ -261,7 +294,7 @@ class Inventory extends Controller {
 		
 		if($this->db->affected_rows() > 0)
 		{
-			redirect('admin/inventory/lists');
+			redirect('admin/inventory/lists/per_page/0');
 		}
 	}
 
