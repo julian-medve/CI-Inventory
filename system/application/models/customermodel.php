@@ -13,9 +13,9 @@ class CustomerModel extends Model
 		return $this->db->insert_id();
 	}
 
-	function getAdminList($start = 0,$limit = 3,$user_role_id)
+	function getAdminList($start = 0,$limit = 3,$user_role_id, $order_by = "user_id DESC")
 	{
-		return  $this->db->query("SELECT * FROM users WHERE user_role_id = $user_role_id ORDER BY user_id DESC LIMIT $start , $limit ")->result_array();		
+		return  $this->db->query("SELECT * FROM users WHERE user_role_id = $user_role_id ORDER BY $order_by LIMIT $start , $limit ")->result_array();		
 	}
 
 	function getList2($order_by = 'full_name')

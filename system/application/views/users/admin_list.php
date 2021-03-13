@@ -10,10 +10,10 @@ $(document).ready(function(){
 <table class="wide">
 	<thead>                            
 		<tr>
-			<th scope="col">Full Name</th>
-			<th scope="col">User Name</th>
-			<th scope="col">Email</th>
-			<th scope="col">Status</th>
+			<th scope="col"><a href="<?php echo site_url("admin/customer/lists"); ?>/full_name/<?php echo ($_SESSION['order'] == 'full_name')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">Full Name<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'full_name')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
+			<th scope="col"><a href="<?php echo site_url("admin/customer/lists"); ?>/username/<?php echo ($_SESSION['order'] == 'username')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">User Name<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'username')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
+			<th scope="col"><a href="<?php echo site_url("admin/customer/lists"); ?>/email/<?php echo ($_SESSION['order'] == 'email')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">Email<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'email')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
+			<th scope="col"><a href="<?php echo site_url("admin/customer/lists"); ?>/status/<?php echo ($_SESSION['order'] == 'status')? $_SESSION['by'] : 'asc'; ?>/per_page/<?php echo $_SESSION['start']; ?>">Status<img src="<?php echo base_url().'public/images/'; ?><?php echo ($_SESSION['order'] == 'status')? $_SESSION['by'] : 'asc'; ?>.png"></a></th>
 			<th scope="col"></th>
 			<th scope="col"></th>
 			<th scope="col"></th>			

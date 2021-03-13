@@ -24,9 +24,31 @@ class Customer extends Controller {
 	{
 		global $per_page,$start,$limit;
 		
+		if($this->uri->segment(5) == 'asc' || $this->uri->segment(5) == 'desc')
+		{
+			$order             = $this->uri->segment(4);
+			$by                = $this->uri->segment(5);
+			$_SESSION['order'] = $order;
+			$_SESSION['by']    = ($this->uri->segment(5) == 'asc')? 'asc' : 'desc';
+			$order_by          = "$order $by";
+		}
+		else
+		{
+			if(isset($_SESSION['order']))
+			{
+				$order    = $_SESSION['order'];
+				$by       = $_SESSION['by'];
+				$order_by = "$order $by";
+			}
+			else
+			{
+				$order_by = "user_id DESC";
+			}
+		}
+
 		$this->setPaginationParams();
 		
-		$start = $this->uri->segment(5);
+		$start = $this->uri->segment(7);
 		if (empty($start)) 
 		{
 		   	$start = 0;
@@ -34,7 +56,7 @@ class Customer extends Controller {
 		$limit=$per_page;
 		$links = $this->pagination->create_links();
 		
-		$result_array	= $this->CustomerModel->getAdminList($start,$limit,2);
+		$result_array	= $this->CustomerModel->getAdminList($start,$limit,2, $order_by);
 		
 		$links = $this->pagination->create_links();
 		$data = array(
@@ -44,6 +66,11 @@ class Customer extends Controller {
 				"title"	              => 'Customer List'  
 			  );
 		
+		// For Menu Order
+		if($this->uri->segment(5) == 'asc' || $this->uri->segment(5) == 'desc')
+		{
+			$_SESSION['by']    = ($this->uri->segment(5) == 'asc')? 'desc' : 'asc';
+		}
 		$this->layout->view('users/admin_list', $data);
 	}
 	
@@ -146,7 +173,7 @@ class Customer extends Controller {
 		                	);
 		}
 		
-	  	$result = $this->db->query( "SELECT * FROM users WHERE user_role_id = 2" )->result_array();
+	  $result = $this->db->query( "SELECT * FROM users WHERE user_role_id = 2 ORDER BY " . $_SESSION['order'] . " " . $_SESSION['by'] )->result_array();
 		$per_page = 20;
 		if(empty($params['per_page']))
 		{
@@ -160,11 +187,11 @@ class Customer extends Controller {
 		{	
 			$per_page = count($result);
 		}
-		$config['base_url']   = site_url().'/admin/customer/lists/'		                      
-	                        			. "/per_page/";
-	    $config['total_rows'] = count($result);
+		$config['base_url']   = site_url().'/admin/customer/lists/'. $_SESSION['order'] . '/' . $_SESSION['by']. "/per_page/";
+	  $config['total_rows'] = count($result);
 		$config['per_page']   = $per_page;
-		
+		$config['uri_segment']   = 7;
+
 		$this->pagination->initialize($config);
 	}
 
