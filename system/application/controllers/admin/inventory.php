@@ -227,6 +227,7 @@ class Inventory extends Controller {
 		$data['customerData'] = $this->InventoryModel->getSingleData($store_id);
 		$data['c_date']       = dateFormat2($data['customerData'][0]['c_date']);
 		$data['productList']  = $this->ProductModel->getCustomerProduct($data['customerData'][0]['customer_id'],'ORDER BY product_id DESC');
+		
 		//set the validation rules
 		$rules ['c_date']          = "required|max_length[100]|min_length[3]";
 		$rules ['customer_id']     = "required|callback_customer_id_check";
@@ -238,7 +239,7 @@ class Inventory extends Controller {
 		$fields['product_id']      = 'product' ;
 		$this->validation->set_fields($fields);
 		
-        $this->validation->set_error_delimiters('<p class="error">', '</p>');
+		$this->validation->set_error_delimiters('<p class="error">', '</p>');
 		
 		if (count($_POST) > 0)
 		{

@@ -208,7 +208,7 @@ class Product extends Controller {
 	function getProduct()	
 	{
 		$customer_id = $_POST['customer_id'];
-		$teamList = $this->ProductModel->getCustomerProduct($customer_id,'ORDER BY product_id DESC');
+		$teamList = $this->ProductModel->getCustomerProduct($customer_id,'ORDER BY outside_diameter ASC');
 		$str = "";
 		$str .="<option value='0'>Please select a product</option>";
 		foreach($teamList as $row)

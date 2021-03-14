@@ -63,7 +63,7 @@ class ProductModel extends Model
 		$this->db->update('products', $data);
 	}
 	
-	function getCustomerProduct($customer_id,$order_by,$selectedfield,$search_value)
+	function getCustomerProduct($customer_id,$order_by,$selectedfield = '',$search_value = '')
 	{
 		if($selectedfield != '' AND $search_value != '')
 		{
